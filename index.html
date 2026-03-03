@@ -1,0 +1,232 @@
+<!-- this tells the browser that this an html document -->
+<!DOCTYPE html>
+
+<!-- root element that contains all the html content -->
+<html>
+
+<!--head section contains all the information of the page(not visible on the webpage) -->
+
+<head>
+    <!-- style for for font and color -->
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightslategray;
+        }
+    </style>
+    <!-- title section information visisble on the browser tab -->
+    <title>Delicious Bites</title>
+</head>
+
+<!-- body section contains all the information visible on the webpage -->
+
+<body>
+
+    <!-- h1 section contains the biggest heading -->
+    <h1 style="color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Delicious Bites
+    </h1>
+
+    <!-- h2 section contains the second big heading -->
+    <h2 style="font-weight: bolder;"> Welcome to delicious bites</h2>
+
+    <!-- restaurant description -->
+    <p style="color: black; font-size: 18px; font-family: Arial; font-weight: bold;">Delicious bites is a
+        restaurant for everyone. We have all kinds of foods, modern, tradtional and foreign.
+        We offer all types of foods prepared with high quality ingredients to give you an excellent and unforgettable
+        dining.</p>
+
+    <!-- horizontal line separating menu section -->
+    <hr>
+    <!-- h3 contains the menu section -->
+    <h3>Our drinks</h3>
+    <!--unordered list -->
+    <ul>
+        <li><i>Mango Juice</i></li>
+        <li><i>Orange Juice</i></li>
+        <li><i>Watermelon Juice</i></li>
+        <li><i>Pineapple Juice</i></li>
+        <li><i>Apple Juice</i></li>
+        <li><i>Lemon Juice</i></li>
+    </ul>
+    <h3>Our main meals(most popular)</h3>
+    <!-- ordered list -->
+    <ol>
+        <li><i>Grilled chicken with cheese</i></li>
+        <li><i>kebab, fries and gravy</i></li>
+        <li><i>beef burger with cheese</i></li>
+        <li><i>Hummus with Tahina</i></li>
+        <li><i>Bruschetta Classic</i></li>
+    </ol>
+    <hr>
+
+    <!-- price table section -->
+    <h3>Price menu for drinks </h3>
+    <table border="1">
+        <!-- table header row -->
+        <tr>
+            <th>Types of Juice</th>
+            <th>Price</th>
+            <th>availabilty</th>
+        </tr>
+
+        <tr>
+            <!-- table data row -->
+            <td>Mango Juice</td>
+            <td>6000 UGX</td>
+            <td>availabe</td>
+        </tr>
+
+        <tr>
+            <td>Orange Juice</td>
+            <td>5000 UGX</td>
+            <td>available</td>
+        </tr>
+
+        <tr>
+            <td>Watermelon Juice</td>
+            <td>4500 UGX</td>
+            <td>available</td>
+        </tr>
+
+        <tr>
+            <td>Pineapple Juice</td>
+            <td>6000 UGX</td>
+            <td>available</td>
+        </tr>
+
+        <tr>
+            <td>Apple Juice</td>
+            <td>7200 UGX</td>
+            <td>available</td>
+        </tr>
+
+        <tr>
+            <td>Lemon Juice</td>
+            <td>4500 UGX</td>
+            <td>available</td>
+        </tr>
+    </table>
+    <h3>Food categories and prices</h3>
+    <table border="1">
+        <tr>
+            <!-- table header row -->
+            <th>Food Categories</th>
+            <th>Category</th>
+            <th>preparation time</th>
+            <th>price</th>
+            <th>availabilty</th>
+        </tr>
+
+        <tr>
+            <!-- table data row -->
+            <td>Grilled foods</td>
+            <td>grilled chicken with cheese</td>
+            <td>10 minutes</td>
+            <td>15000 UGX</td>
+            <td>availabe</td>
+        </tr>
+        <tr>
+            <td>Grilled BBQ</td>
+            <td>kebab, fries and gravy</td>
+            <td>20 minutes</td>
+            <td>25000 UGX</td>
+            <td>available</td>
+        </tr>
+        <tr>
+            <td>Fast foods/burgers</td>
+            <td>beef burger with cheese</td>
+            <td>5 minutes</td>
+            <td>37500 UGX</td>
+            <td>available</td>
+        </tr>
+        <tr>
+            <td>Dips/appetizers</td>
+            <td>hummus with Tahina</td>
+            <td>10-20 minutes</td>
+            <td>8500 UGX</td>
+            <td>available</td>
+        </tr>
+        <tr>
+            <td>starters/appetizers</td>
+            <td>Bruschetta Classic</td>
+            <td>ready to serve </td>
+            <td> 9800 UGX</td>
+            <td>readily available</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- food image section -->
+    <h3>our special dish</h3>
+    <img src="grilled chicken.jpg" alt="Grilled Chicken with Fries" width="300">
+    <img src="istockphoto-1021290962-1024x1024.jpg" alt=" grilled chicken " width=" 300">
+    <img src="grilled chicken and lemon pieces.jpg" alt="grilled chicken" width="300">
+    <!-- scr= image location -->
+    <!-- alt=description of image -->
+    <!-- width= size of image -->
+
+    <br><br>
+
+    <!-- instagram link -->
+    <a href="https://www.instagram.com" target="_blank"> Visit our instagram</a>
+    <br><br>
+
+    <!-- order button -->
+    <button>Order now</button>
+    <hr>
+    <!-- contact form section -->
+    <h3>Contact us</h3>
+    <form>
+        <!-- Name Field -->
+        <label for="Name">Name:</label><br>
+        <input type="text" id="Name" name="name" placeholder="enter your full name"><br><br>
+
+        <!--email field  -->
+        <label for="--email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="enter your email address"><br><br>
+
+        <!-- phone number field -->
+        <label for="phone">phone number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="enter your phone number"><br><br>
+
+        <!--  text input field for name with placeholder-->
+        <!-- <br>= line break after label -->
+        <!-- <br><br>= line braek spacing -->
+
+
+        <!-- order selection -->
+        <label for="order"> order selection:</label><br>
+        <select name="order" id="order">
+            <option>mango juice</option>
+            <option>orange juice</option>
+            <option>watermelon juice</option>
+            <option>pineapple juice</option>
+            <option>apple juice</option>
+            <option>lemon jpg</option>
+            <option>grilled chicken and cheese</option>
+            <option>kebab fries and gravy</option>
+            <option>beef burger with cheese</option>
+            <option>hummus with Tahina</option>
+            <option>Bruschetta Classic</option>
+        </select><br><br>
+
+        <!-- message field -->
+        <label for="message">message:</label><br>
+        <textarea name="message" id="message" placeholder="write your message here"></textarea><br><br>
+
+        <!-- submit button  -->
+        <button type="submit"> submit</button>
+
+    </form>
+    <hr>
+
+    <!-- address section (using line break) -->
+    <h3>Our location</h3>
+    <p>
+        Delicious Bites restaurant <br>
+        kampala Road
+        Kampala, Uganda
+    </p>
+
+</body>
+
+</html>
